@@ -1,0 +1,55 @@
+body {
+    background: #f0f0f0; /* Make it white if you need */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    color: rgb(89, 0, 255);
+  }
+  
+  button{
+    --radii: 0.5em;
+    min-width: 120px;
+    min-height: 44px;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    background-size: 280% auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+     background-position: right top;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    button {
+      transition: linear;
+    }
+  }
+  
+  #clicks{
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    color: black
+  }
+  
+  #timer{
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    color: black
+  }
+  
+  #clicksPerSecond{
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    color: black
+  }
+  
+  
